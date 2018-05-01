@@ -1,0 +1,19 @@
+{
+  "name": "snarky-chat-bot",
+  "version": "1.0.0",
+  "description": "chat bot as side project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poojankhanpara/snarky-chat-bot.git"
+  },
+  "author": "poojan and vaishali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poojankhanpara/snarky-chat-bot/issues"
+  },
+  "homepage": "https://github.com/poojankhanpara/snarky-chat-bot#readme"
+}
