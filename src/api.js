@@ -7,12 +7,12 @@ const initHttpServer = (app) => {
     app.use(bodyParser.json());
 
     app.get('/', (req, res) => {
-
+      res.sendFile('index.html');
     })
 
-    app.post('/', (req, res) => {
-
-    })
+    // app.post('/', (req, res) => {
+    //
+    // })
 
     app.listen(http_port, () => console.log('Listening http on port: ' + http_port));
 };
